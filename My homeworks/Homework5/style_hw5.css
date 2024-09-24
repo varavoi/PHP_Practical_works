@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+.parent_style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    border: 1px solid rgb(127, 127, 127);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+
+input[type="text"]{
+    margin: 5px 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+input[type="submit"]{
+    margin: 5px 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    background-color: rgb(69, 133, 189);
+    color: white;
+    transition: transform 0.05s ease-in;
+}
+input[type="submit"]:hover{
+    background-color: rgb(88, 177, 255); 
+    cursor:pointer;
+}
+input[type="submit"]:active{
+    background-color: rgb(38, 75, 107); 
+    transform: scale(0.97);
+    cursor:pointer;
+}
+label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.infoUs_style{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.horizLine{
+    height: 0px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.textStyle{
+    margin: 5px 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
